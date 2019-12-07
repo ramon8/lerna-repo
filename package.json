@@ -1,0 +1,12 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  },
+  "scripts": {
+    "lib-ui:start": "lerna run --scope=lib-ui start",
+    "lib-ui:build": "lerna run --scope=lib-ui build",
+    "lib-ui:sb": "lerna run --scope=lib-ui storybook"
+  }
+}

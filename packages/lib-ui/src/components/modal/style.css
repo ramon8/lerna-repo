@@ -1,0 +1,31 @@
+.modal-wraper {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.close-buton{
+    font-family: Arial;
+    position: absolute;
+    right: .5rem;
+    font-size: .75rem;
+    top: .5rem;
+    color: gray;
+    cursor: pointer;
+}
+
+.close-buton:hover{
+    color: black;
+}
+
+.modal-container{
+    background: white;
+    border-radius: 5px;
+    position: relative;
+    margin: auto;
+    width: fit-content;
+    padding: 1rem;
+}
